@@ -1,0 +1,6 @@
+2026-05-10 16:37:58,566  INFO     pipeline.worker  resuming from checkpoint: 2026-05-10T20:22:23.936000Z (11 events processed)
+2026-05-10 16:37:58,566  INFO     pipeline.worker  connecting to Realtime stream (since=2026-05-10T20:22:23.936000Z)…
+2026-05-10 16:37:59,967  WARNING  pipeline.worker  stream error: Response ended prematurely; reconnecting in 2.0s
+2026-05-10 16:38:02,351  INFO     pipeline.worker  connecting to Realtime stream (since=2026-05-10T20:22:23.936000Z)…
+2026-05-10 16:38:02,672  INFO     pipeline.worker  event for 2026-05-10 (page='Portal:Current events/2026 May 10')
+2026-05-10 16:38:03,003  INFO     pipeline.worker    scraped 8 events for 2026-05-10 (0 new)
