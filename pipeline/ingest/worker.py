@@ -31,6 +31,19 @@ from pipeline.store.repo import get_checkpoint, set_checkpoint, upsert_events
 CHECKPOINT_NAME = "realtime"
 log = logging.getLogger("pipeline.worker")
 
+
+def _format_event(ev: Any) -> str:
+    """Render one Event as a Discord-friendly markdown message."""
+    src = ev.sources[0].url if ev.sources else "(no source)"
+    domain = ev.sources[0].domain if ev.sources else ""
+    n_ents = len(ev.linked_entities)
+    return (
+        f"**[{ev.topic_category}]** {ev.headline}\n"
+        f"Source: <{src}>"
+        + (f" ({domain})" if domain else "")
+        + f" · {n_ents} entities · lane=`{ev.write_lane}`"
+    )
+
 # Portal subpage titles look like "Portal:Current events/2026 May 9".
 # Spaces and underscores interchangeable in Wikipedia titles.
 _SUBPAGE_RE = re.compile(r"^Portal:Current[ _]events/(\d{4})[ _]([A-Za-z]+)[ _](\d{1,2})$")
@@ -150,15 +163,14 @@ class Worker:
             return True
 
         if events:
-            n = upsert_events(events)
-            log.info(f"  upserted {n} events for {d.isoformat()}")
-            n_safe = sum(1 for e in events if str(e.write_lane) == "safe_auto")
-            n_review = sum(1 for e in events if str(e.write_lane) == "review")
-            notify(
-                "DISCORD_CHANNEL_NOTIFICATIONS",
-                f"Portal:Current_events/{d.isoformat()} updated — "
-                f"{n} events ({n_safe} safe_auto, {n_review} review)",
+            new_events = upsert_events(events)
+            log.info(
+                f"  scraped {len(events)} events for {d.isoformat()} "
+                f"({len(new_events)} new)"
             )
+            for ev in new_events:
+                notify("DISCORD_CHANNEL_NOTIFICATIONS", _format_event(ev))
+                time.sleep(0.3)  # stay under Discord rate limit
 
         ts = event_timestamp(event)
         rid = event_rev_id(event)

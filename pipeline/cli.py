@@ -61,8 +61,11 @@ def _cmd_scrape_single(d: Date, args: argparse.Namespace) -> int:
     events = scrape(d)
     if args.persist:
         from pipeline.store.repo import upsert_events
-        n = upsert_events(events)
-        print(f"persisted {n} events", file=sys.stderr)
+        new = upsert_events(events)
+        print(
+            f"persisted {len(events)} events ({len(new)} new)",
+            file=sys.stderr,
+        )
 
     if args.summary:
         for e in events:

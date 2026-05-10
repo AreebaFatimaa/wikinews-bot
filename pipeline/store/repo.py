@@ -33,37 +33,56 @@ ON CONFLICT (event_id) DO UPDATE SET
     score = EXCLUDED.score,
     payload = EXCLUDED.payload,
     updated_at = NOW()
+RETURNING (xmax = 0) AS inserted
 """
 
 
-def upsert_event(event: Event, conn: Optional[psycopg.Connection] = None) -> None:
+def _upsert_args(event: Event) -> tuple:
     payload = json.dumps(event.model_dump(mode="json"), default=str)
-    args = (
+    status = event.status if isinstance(event.status, str) else event.status.value
+    lane = (
+        event.write_lane
+        if not event.write_lane or isinstance(event.write_lane, str)
+        else event.write_lane.value
+    )
+    return (
         event.event_id,
-        event.status if isinstance(event.status, str) else event.status.value,
+        status,
         event.topic_category,
-        event.write_lane if not event.write_lane or isinstance(event.write_lane, str)
-        else event.write_lane.value,
+        lane,
         event.score,
         event.source.section_date,
         payload,
     )
+
+
+def upsert_event(event: Event, conn: Optional[psycopg.Connection] = None) -> bool:
+    """Upsert one event. Returns True if newly inserted, False if updated."""
+    args = _upsert_args(event)
     if conn is None:
         with connect() as c, c.cursor() as cur:
             cur.execute(_UPSERT_SQL, args)
-        return
+            inserted = cur.fetchone()[0]
+        return bool(inserted)
     with conn.cursor() as cur:
         cur.execute(_UPSERT_SQL, args)
+        inserted = cur.fetchone()[0]
+    return bool(inserted)
 
 
-def upsert_events(events: list[Event]) -> int:
+def upsert_events(events: list[Event]) -> list[Event]:
+    """Upsert a batch. Returns the subset that were newly inserted."""
     if not events:
-        return 0
+        return []
+    new_events: list[Event] = []
     with connect() as conn:
-        for e in events:
-            upsert_event(e, conn=conn)
+        with conn.cursor() as cur:
+            for e in events:
+                cur.execute(_UPSERT_SQL, _upsert_args(e))
+                if cur.fetchone()[0]:
+                    new_events.append(e)
         conn.commit()
-    return len(events)
+    return new_events
 
 
 def get_event(event_id: str) -> Optional[Event]:
