@@ -1,0 +1,27 @@
+Metadata-Version: 2.4
+Name: wikimedia-current-events-pipeline
+Version: 0.1.0
+Summary: Pipeline ingesting Wikipedia Portal:Current events into Wikidata via a Discord-driven hybrid auto-publish/review bot. Stewarded by Wikimedia NYC.
+Author: Wikimedia NYC
+License-Expression: MIT
+Requires-Python: >=3.11
+Requires-Dist: pydantic>=2.6
+Requires-Dist: requests>=2.31
+Requires-Dist: mwparserfromhell>=0.6.6
+Provides-Extra: ingest
+Requires-Dist: sseclient-py>=1.8; extra == "ingest"
+Provides-Extra: publish
+Requires-Dist: pywikibot>=9.0; extra == "publish"
+Provides-Extra: score
+Requires-Dist: anthropic>=0.40; extra == "score"
+Provides-Extra: discord
+Requires-Dist: discord.py>=2.4; extra == "discord"
+Provides-Extra: db
+Requires-Dist: sqlalchemy>=2; extra == "db"
+Requires-Dist: alembic>=1.13; extra == "db"
+Requires-Dist: psycopg[binary]>=3.1; extra == "db"
+Provides-Extra: dev
+Requires-Dist: pytest>=8; extra == "dev"
+Requires-Dist: ruff>=0.5; extra == "dev"
+Requires-Dist: mypy>=1.10; extra == "dev"
+Requires-Dist: pre-commit>=3.7; extra == "dev"

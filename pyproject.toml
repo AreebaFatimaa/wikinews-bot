@@ -1,0 +1,37 @@
+[project]
+name = "wikimedia-current-events-pipeline"
+version = "0.1.0"
+description = "Pipeline ingesting Wikipedia Portal:Current events into Wikidata via a Discord-driven hybrid auto-publish/review bot. Stewarded by Wikimedia NYC."
+requires-python = ">=3.11"
+license = "MIT"
+authors = [{ name = "Wikimedia NYC" }]
+dependencies = [
+    "pydantic>=2.6",
+    "requests>=2.31",
+    "mwparserfromhell>=0.6.6",
+]
+
+[project.optional-dependencies]
+ingest = ["sseclient-py>=1.8"]
+publish = ["pywikibot>=9.0"]
+score = ["anthropic>=0.40"]
+discord = ["discord.py>=2.4"]
+db = ["sqlalchemy>=2", "alembic>=1.13", "psycopg[binary]>=3.1"]
+dev = ["pytest>=8", "ruff>=0.5", "mypy>=1.10", "pre-commit>=3.7"]
+
+[project.scripts]
+pipeline = "pipeline.cli:main"
+
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[tool.setuptools.packages.find]
+include = ["pipeline*"]
+
+[tool.ruff]
+line-length = 100
+target-version = "py311"
+
+[tool.ruff.lint]
+select = ["E", "F", "I", "B", "UP"]

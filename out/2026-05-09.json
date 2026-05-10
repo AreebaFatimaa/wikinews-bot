@@ -1,0 +1,1192 @@
+[
+  {
+    "schema_version": "1.0",
+    "event_id": "ce_2026-05-09_armed-conflict_01",
+    "source": {
+      "page": "Portal:Current_events",
+      "rev_id": 1353502060,
+      "section_date": "2026-05-09",
+      "section_topic": "Armed conflicts and attacks",
+      "section_anchor": "#Armed_conflicts_and_attacks"
+    },
+    "headline": "Russian president Vladimir Putin says that he thinks the Russo-Ukrainian war may come to an end soon after previously vowing victory over Ukraine during the Victory Day military parade in Moscow",
+    "body": "[Russo-Ukrainian war > Peace negotiations in the Russo-Ukrainian war] Russian president Vladimir Putin says that he thinks the Russo-Ukrainian war may come to an end soon after previously vowing victory over Ukraine during the Victory Day military parade in Moscow. (Reuters) (The Moscow Times)'",
+    "topic_category": "armed_conflict",
+    "linked_entities": [
+      {
+        "surface": "Russian president",
+        "wikipedia_title": "President of Russia",
+        "wikidata_qid": null,
+        "role": "other",
+        "confidence": 1.0
+      },
+      {
+        "surface": "Vladimir Putin",
+        "wikipedia_title": "Vladimir Putin",
+        "wikidata_qid": null,
+        "role": "other",
+        "confidence": 1.0
+      },
+      {
+        "surface": "Russo-Ukrainian war",
+        "wikipedia_title": "Russo-Ukrainian war (2022\u2013present)",
+        "wikidata_qid": null,
+        "role": "other",
+        "confidence": 1.0
+      },
+      {
+        "surface": "Ukraine",
+        "wikipedia_title": "Ukraine",
+        "wikidata_qid": null,
+        "role": "other",
+        "confidence": 1.0
+      },
+      {
+        "surface": "Victory Day",
+        "wikipedia_title": "Victory Day (9 May)",
+        "wikidata_qid": null,
+        "role": "other",
+        "confidence": 1.0
+      },
+      {
+        "surface": "military parade",
+        "wikipedia_title": "Moscow Victory Day Parade",
+        "wikidata_qid": null,
+        "role": "other",
+        "confidence": 1.0
+      },
+      {
+        "surface": "Moscow",
+        "wikipedia_title": "Moscow",
+        "wikidata_qid": null,
+        "role": "other",
+        "confidence": 1.0
+      }
+    ],
+    "sources": [
+      {
+        "url": "https://www.reuters.com/world/europe/putin-says-he-thinks-ukraine-conflict-is-coming-an-end-2026-05-09/",
+        "domain": "reuters.com",
+        "ref_name": null,
+        "publisher_qid": null,
+        "retrieved": "2026-05-10T17:14:48.706830Z"
+      },
+      {
+        "url": "https://www.themoscowtimes.com/2026/05/09/putin-says-ukraine-war-winding-down-blasts-west-for-backing-kyiv-a92723",
+        "domain": "themoscowtimes.com",
+        "ref_name": null,
+        "publisher_qid": null,
+        "retrieved": "2026-05-10T17:14:48.706830Z"
+      }
+    ],
+    "wikidata_proposal": {
+      "primary_item": null,
+      "target_qid": null,
+      "statements": []
+    },
+    "score": null,
+    "score_rationale": null,
+    "score_components": {
+      "heuristic": null,
+      "llm": null,
+      "model": null,
+      "rubric_version": null
+    },
+    "status": "parsed",
+    "write_lane": "review",
+    "review": {
+      "operator": null,
+      "decision_at": null,
+      "notes": null
+    },
+    "publish": {
+      "attempts": 0,
+      "last_error": null,
+      "wikidata_revisions": []
+    },
+    "timestamps": {
+      "ingested_at": "2026-05-10T17:14:48.706830Z",
+      "parsed_at": "2026-05-10T17:14:48.706830Z",
+      "scored_at": null,
+      "published_at": null
+    }
+  },
+  {
+    "schema_version": "1.0",
+    "event_id": "ce_2026-05-09_armed-conflict_02",
+    "source": {
+      "page": "Portal:Current_events",
+      "rev_id": 1353502060,
+      "section_date": "2026-05-09",
+      "section_topic": "Armed conflicts and attacks",
+      "section_anchor": "#Armed_conflicts_and_attacks"
+    },
+    "headline": "Kharkiv Oblast governor Oleh Syniehubov says that a Russian drone has struck a residential building in Kharkiv during the beginning of the 3-day ceasefire between Russia and Ukraine",
+    "body": "[Russo-Ukrainian war > Kharkiv strikes (2022\u2013present)] Kharkiv Oblast governor Oleh Syniehubov says that a Russian drone has struck a residential building in Kharkiv during the beginning of the 3-day ceasefire between Russia and Ukraine. (Kyiv Independent)",
+    "topic_category": "armed_conflict",
+    "linked_entities": [
+      {
+        "surface": "Kharkiv Oblast",
+        "wikipedia_title": "Kharkiv Oblast",
+        "wikidata_qid": null,
+        "role": "other",
+        "confidence": 1.0
+      },
+      {
+        "surface": "governor",
+        "wikipedia_title": "Governor of Kharkiv Oblast",
+        "wikidata_qid": null,
+        "role": "other",
+        "confidence": 1.0
+      },
+      {
+        "surface": "Oleh Syniehubov",
+        "wikipedia_title": "Oleh Syniehubov",
+        "wikidata_qid": null,
+        "role": "other",
+        "confidence": 1.0
+      },
+      {
+        "surface": "drone",
+        "wikipedia_title": "Unmanned combat aerial vehicle",
+        "wikidata_qid": null,
+        "role": "other",
+        "confidence": 1.0
+      },
+      {
+        "surface": "Kharkiv",
+        "wikipedia_title": "Kharkiv",
+        "wikidata_qid": null,
+        "role": "other",
+        "confidence": 1.0
+      },
+      {
+        "surface": "ceasefire",
+        "wikipedia_title": "ceasefire",
+        "wikidata_qid": null,
+        "role": "other",
+        "confidence": 1.0
+      },
+      {
+        "surface": "Ukraine",
+        "wikipedia_title": "Ukraine",
+        "wikidata_qid": null,
+        "role": "other",
+        "confidence": 1.0
+      }
+    ],
+    "sources": [
+      {
+        "url": "https://kyivindependent.com/russian-drone-strikes-apartment-building-in-kharkiv-less-than-24-hours-into-ceasefire/",
+        "domain": "kyivindependent.com",
+        "ref_name": null,
+        "publisher_qid": null,
+        "retrieved": "2026-05-10T17:14:48.706830Z"
+      }
+    ],
+    "wikidata_proposal": {
+      "primary_item": null,
+      "target_qid": null,
+      "statements": []
+    },
+    "score": null,
+    "score_rationale": null,
+    "score_components": {
+      "heuristic": null,
+      "llm": null,
+      "model": null,
+      "rubric_version": null
+    },
+    "status": "parsed",
+    "write_lane": "review",
+    "review": {
+      "operator": null,
+      "decision_at": null,
+      "notes": null
+    },
+    "publish": {
+      "attempts": 0,
+      "last_error": null,
+      "wikidata_revisions": []
+    },
+    "timestamps": {
+      "ingested_at": "2026-05-10T17:14:48.706830Z",
+      "parsed_at": "2026-05-10T17:14:48.706830Z",
+      "scored_at": null,
+      "published_at": null
+    }
+  },
+  {
+    "schema_version": "1.0",
+    "event_id": "ce_2026-05-09_armed-conflict_03",
+    "source": {
+      "page": "Portal:Current_events",
+      "rev_id": 1353502060,
+      "section_date": "2026-05-09",
+      "section_topic": "Armed conflicts and attacks",
+      "section_anchor": "#Armed_conflicts_and_attacks"
+    },
+    "headline": "The Sudanese Army announces that it has seized control of the Al-Kili area in the Blue Nile State from Rapid Support Forces and SPLM\u2013N",
+    "body": "[Sudanese civil war > 2026 Blue Nile campaign] The Sudanese Army announces that it has seized control of the Al-Kili area in the Blue Nile State from Rapid Support Forces and SPLM\u2013N. (AA)",
+    "topic_category": "armed_conflict",
+    "linked_entities": [
+      {
+        "surface": "Sudanese Army",
+        "wikipedia_title": "Sudanese Army",
+        "wikidata_qid": null,
+        "role": "other",
+        "confidence": 1.0
+      },
+      {
+        "surface": "Blue Nile State",
+        "wikipedia_title": "Blue Nile State",
+        "wikidata_qid": null,
+        "role": "other",
+        "confidence": 1.0
+      },
+      {
+        "surface": "Rapid Support Forces",
+        "wikipedia_title": "Rapid Support Forces",
+        "wikidata_qid": null,
+        "role": "other",
+        "confidence": 1.0
+      },
+      {
+        "surface": "SPLM\u2013N",
+        "wikipedia_title": "Sudan People's Liberation Movement\u2013North",
+        "wikidata_qid": null,
+        "role": "other",
+        "confidence": 1.0
+      }
+    ],
+    "sources": [
+      {
+        "url": "https://www.aa.com.tr/en/middle-east/sudanese-army-announces-its-control-over-al-kili-area-in-blue-nile-state/3932614",
+        "domain": "aa.com.tr",
+        "ref_name": null,
+        "publisher_qid": null,
+        "retrieved": "2026-05-10T17:14:48.706830Z"
+      }
+    ],
+    "wikidata_proposal": {
+      "primary_item": null,
+      "target_qid": null,
+      "statements": []
+    },
+    "score": null,
+    "score_rationale": null,
+    "score_components": {
+      "heuristic": null,
+      "llm": null,
+      "model": null,
+      "rubric_version": null
+    },
+    "status": "parsed",
+    "write_lane": "review",
+    "review": {
+      "operator": null,
+      "decision_at": null,
+      "notes": null
+    },
+    "publish": {
+      "attempts": 0,
+      "last_error": null,
+      "wikidata_revisions": []
+    },
+    "timestamps": {
+      "ingested_at": "2026-05-10T17:14:48.706830Z",
+      "parsed_at": "2026-05-10T17:14:48.706830Z",
+      "scored_at": null,
+      "published_at": null
+    }
+  },
+  {
+    "schema_version": "1.0",
+    "event_id": "ce_2026-05-09_armed-conflict_04",
+    "source": {
+      "page": "Portal:Current_events",
+      "rev_id": 1353502060,
+      "section_date": "2026-05-09",
+      "section_topic": "Armed conflicts and attacks",
+      "section_anchor": "#Armed_conflicts_and_attacks"
+    },
+    "headline": "Fourteen police officers are killed and three others are injured in a car bomb, followed by gunfire and other explosions, at a checkpoint in Bannu, Khyber Pakhtunkhwa, Pakistan",
+    "body": "[Insurgency in Khyber Pakhtunkhwa > 2026 Bannu attacks] Fourteen police officers are killed and three others are injured in a car bomb, followed by gunfire and other explosions, at a checkpoint in Bannu, Khyber Pakhtunkhwa, Pakistan. (AP)",
+    "topic_category": "armed_conflict",
+    "linked_entities": [
+      {
+        "surface": "police officers",
+        "wikipedia_title": "Khyber Pakhtunkhwa Police",
+        "wikidata_qid": null,
+        "role": "other",
+        "confidence": 1.0
+      },
+      {
+        "surface": "car bomb",
+        "wikipedia_title": "car bomb",
+        "wikidata_qid": null,
+        "role": "other",
+        "confidence": 1.0
+      },
+      {
+        "surface": "Bannu",
+        "wikipedia_title": "Bannu",
+        "wikidata_qid": null,
+        "role": "other",
+        "confidence": 1.0
+      },
+      {
+        "surface": "Khyber Pakhtunkhwa",
+        "wikipedia_title": "Khyber Pakhtunkhwa",
+        "wikidata_qid": null,
+        "role": "other",
+        "confidence": 1.0
+      },
+      {
+        "surface": "Pakistan",
+        "wikipedia_title": "Pakistan",
+        "wikidata_qid": null,
+        "role": "other",
+        "confidence": 1.0
+      }
+    ],
+    "sources": [
+      {
+        "url": "https://apnews.com/article/pakkstan-suicide-attack-security-post-northwest-taliban-1dd78871816127c1ab90589aa6971a77",
+        "domain": "apnews.com",
+        "ref_name": null,
+        "publisher_qid": null,
+        "retrieved": "2026-05-10T17:14:48.706830Z"
+      }
+    ],
+    "wikidata_proposal": {
+      "primary_item": null,
+      "target_qid": null,
+      "statements": []
+    },
+    "score": null,
+    "score_rationale": null,
+    "score_components": {
+      "heuristic": null,
+      "llm": null,
+      "model": null,
+      "rubric_version": null
+    },
+    "status": "parsed",
+    "write_lane": "review",
+    "review": {
+      "operator": null,
+      "decision_at": null,
+      "notes": null
+    },
+    "publish": {
+      "attempts": 0,
+      "last_error": null,
+      "wikidata_revisions": []
+    },
+    "timestamps": {
+      "ingested_at": "2026-05-10T17:14:48.706830Z",
+      "parsed_at": "2026-05-10T17:14:48.706830Z",
+      "scored_at": null,
+      "published_at": null
+    }
+  },
+  {
+    "schema_version": "1.0",
+    "event_id": "ce_2026-05-09_armed-conflict_05",
+    "source": {
+      "page": "Portal:Current_events",
+      "rev_id": 1353502060,
+      "section_date": "2026-05-09",
+      "section_topic": "Armed conflicts and attacks",
+      "section_anchor": "#Armed_conflicts_and_attacks"
+    },
+    "headline": "The DR Congolese military reports that at least 69 people were killed in an attack by CODECO in Ituri Province in April",
+    "body": "[Ituri conflict] The DR Congolese military reports that at least 69 people were killed in an attack by CODECO in Ituri Province in April. (AFP via Arab News)",
+    "topic_category": "armed_conflict",
+    "linked_entities": [
+      {
+        "surface": "DR Congolese",
+        "wikipedia_title": "Democratic Republic of the Congo",
+        "wikidata_qid": null,
+        "role": "other",
+        "confidence": 1.0
+      },
+      {
+        "surface": "military",
+        "wikipedia_title": "Armed Forces of the Democratic Republic of the Congo",
+        "wikidata_qid": null,
+        "role": "other",
+        "confidence": 1.0
+      },
+      {
+        "surface": "CODECO",
+        "wikipedia_title": "CODECO",
+        "wikidata_qid": null,
+        "role": "other",
+        "confidence": 1.0
+      },
+      {
+        "surface": "Ituri Province",
+        "wikipedia_title": "Ituri Province",
+        "wikidata_qid": null,
+        "role": "other",
+        "confidence": 1.0
+      }
+    ],
+    "sources": [
+      {
+        "url": "https://www.arabnews.com/node/2642971/world",
+        "domain": "arabnews.com",
+        "ref_name": null,
+        "publisher_qid": null,
+        "retrieved": "2026-05-10T17:14:48.706830Z"
+      }
+    ],
+    "wikidata_proposal": {
+      "primary_item": null,
+      "target_qid": null,
+      "statements": []
+    },
+    "score": null,
+    "score_rationale": null,
+    "score_components": {
+      "heuristic": null,
+      "llm": null,
+      "model": null,
+      "rubric_version": null
+    },
+    "status": "parsed",
+    "write_lane": "review",
+    "review": {
+      "operator": null,
+      "decision_at": null,
+      "notes": null
+    },
+    "publish": {
+      "attempts": 0,
+      "last_error": null,
+      "wikidata_revisions": []
+    },
+    "timestamps": {
+      "ingested_at": "2026-05-10T17:14:48.706830Z",
+      "parsed_at": "2026-05-10T17:14:48.706830Z",
+      "scored_at": null,
+      "published_at": null
+    }
+  },
+  {
+    "schema_version": "1.0",
+    "event_id": "ce_2026-05-09_arts-culture_01",
+    "source": {
+      "page": "Portal:Current_events",
+      "rev_id": 1353502060,
+      "section_date": "2026-05-09",
+      "section_topic": "Arts and culture",
+      "section_anchor": "#Arts_and_culture"
+    },
+    "headline": "The 61st Venice Biennale in Italy opens to the public without a jury after the jury quit in protest of Israel's and Russia's participation and loud protests outside their pavilions",
+    "body": "[61st Venice Biennale] The 61st Venice Biennale in Italy opens to the public without a jury after the jury quit in protest of Israel's and Russia's participation and loud protests outside their pavilions. (AP)",
+    "topic_category": "arts_culture",
+    "linked_entities": [
+      {
+        "surface": "Venice Biennale",
+        "wikipedia_title": "Venice Biennale",
+        "wikidata_qid": null,
+        "role": "other",
+        "confidence": 1.0
+      },
+      {
+        "surface": "Italy",
+        "wikipedia_title": "Italy",
+        "wikidata_qid": null,
+        "role": "other",
+        "confidence": 1.0
+      },
+      {
+        "surface": "Israel",
+        "wikipedia_title": "Israel",
+        "wikidata_qid": null,
+        "role": "other",
+        "confidence": 1.0
+      },
+      {
+        "surface": "Russia",
+        "wikipedia_title": "Russia",
+        "wikidata_qid": null,
+        "role": "other",
+        "confidence": 1.0
+      }
+    ],
+    "sources": [
+      {
+        "url": "https://apnews.com/article/italy-venice-biennale-protests-israel-russia-760228a0f311f8fe8f8dd3487e57cc70",
+        "domain": "apnews.com",
+        "ref_name": null,
+        "publisher_qid": null,
+        "retrieved": "2026-05-10T17:14:48.706830Z"
+      }
+    ],
+    "wikidata_proposal": {
+      "primary_item": null,
+      "target_qid": null,
+      "statements": []
+    },
+    "score": null,
+    "score_rationale": null,
+    "score_components": {
+      "heuristic": null,
+      "llm": null,
+      "model": null,
+      "rubric_version": null
+    },
+    "status": "parsed",
+    "write_lane": "review",
+    "review": {
+      "operator": null,
+      "decision_at": null,
+      "notes": null
+    },
+    "publish": {
+      "attempts": 0,
+      "last_error": null,
+      "wikidata_revisions": []
+    },
+    "timestamps": {
+      "ingested_at": "2026-05-10T17:14:48.706830Z",
+      "parsed_at": "2026-05-10T17:14:48.706830Z",
+      "scored_at": null,
+      "published_at": null
+    }
+  },
+  {
+    "schema_version": "1.0",
+    "event_id": "ce_2026-05-09_arts-culture_02",
+    "source": {
+      "page": "Portal:Current_events",
+      "rev_id": 1353502060,
+      "section_date": "2026-05-09",
+      "section_topic": "Arts and culture",
+      "section_anchor": "#Arts_and_culture"
+    },
+    "headline": "Exhibits from over 100 countries are shown on display including Belgium",
+    "body": "[61st Venice Biennale] Exhibits from over 100 countries are shown on display including Belgium. (Brussels Times)",
+    "topic_category": "arts_culture",
+    "linked_entities": [
+      {
+        "surface": "Belgium",
+        "wikipedia_title": "Belgium",
+        "wikidata_qid": null,
+        "role": "other",
+        "confidence": 1.0
+      }
+    ],
+    "sources": [
+      {
+        "url": "https://www.brusselstimes.com/belgium/2122328/belgian-performance-art-on-display-at-venice-biennale",
+        "domain": "brusselstimes.com",
+        "ref_name": null,
+        "publisher_qid": null,
+        "retrieved": "2026-05-10T17:14:48.706830Z"
+      }
+    ],
+    "wikidata_proposal": {
+      "primary_item": null,
+      "target_qid": null,
+      "statements": []
+    },
+    "score": null,
+    "score_rationale": null,
+    "score_components": {
+      "heuristic": null,
+      "llm": null,
+      "model": null,
+      "rubric_version": null
+    },
+    "status": "parsed",
+    "write_lane": "review",
+    "review": {
+      "operator": null,
+      "decision_at": null,
+      "notes": null
+    },
+    "publish": {
+      "attempts": 0,
+      "last_error": null,
+      "wikidata_revisions": []
+    },
+    "timestamps": {
+      "ingested_at": "2026-05-10T17:14:48.706830Z",
+      "parsed_at": "2026-05-10T17:14:48.706830Z",
+      "scored_at": null,
+      "published_at": null
+    }
+  },
+  {
+    "schema_version": "1.0",
+    "event_id": "ce_2026-05-09_arts-culture_03",
+    "source": {
+      "page": "Portal:Current_events",
+      "rev_id": 1353502060,
+      "section_date": "2026-05-09",
+      "section_topic": "Arts and culture",
+      "section_anchor": "#Arts_and_culture"
+    },
+    "headline": "Russia marks the Victory Day with a scaled-down military parade in Moscow",
+    "body": "[2026 Moscow Victory Day Parade] Russia marks the Victory Day with a scaled-down military parade in Moscow. (Sky News)",
+    "topic_category": "arts_culture",
+    "linked_entities": [
+      {
+        "surface": "Russia",
+        "wikipedia_title": "Russia",
+        "wikidata_qid": null,
+        "role": "other",
+        "confidence": 1.0
+      },
+      {
+        "surface": "Victory Day",
+        "wikipedia_title": "Victory Day (9 May)",
+        "wikidata_qid": null,
+        "role": "other",
+        "confidence": 1.0
+      },
+      {
+        "surface": "military parade",
+        "wikipedia_title": "Moscow Victory Day Parade",
+        "wikidata_qid": null,
+        "role": "other",
+        "confidence": 1.0
+      },
+      {
+        "surface": "Moscow",
+        "wikipedia_title": "Moscow",
+        "wikidata_qid": null,
+        "role": "other",
+        "confidence": 1.0
+      }
+    ],
+    "sources": [
+      {
+        "url": "https://news.sky.com/video/russia-holds-scaled-down-military-parade-13541925",
+        "domain": "news.sky.com",
+        "ref_name": null,
+        "publisher_qid": null,
+        "retrieved": "2026-05-10T17:14:48.706830Z"
+      }
+    ],
+    "wikidata_proposal": {
+      "primary_item": null,
+      "target_qid": null,
+      "statements": []
+    },
+    "score": null,
+    "score_rationale": null,
+    "score_components": {
+      "heuristic": null,
+      "llm": null,
+      "model": null,
+      "rubric_version": null
+    },
+    "status": "parsed",
+    "write_lane": "review",
+    "review": {
+      "operator": null,
+      "decision_at": null,
+      "notes": null
+    },
+    "publish": {
+      "attempts": 0,
+      "last_error": null,
+      "wikidata_revisions": []
+    },
+    "timestamps": {
+      "ingested_at": "2026-05-10T17:14:48.706830Z",
+      "parsed_at": "2026-05-10T17:14:48.706830Z",
+      "scored_at": null,
+      "published_at": null
+    }
+  },
+  {
+    "schema_version": "1.0",
+    "event_id": "ce_2026-05-09_law-crime_01",
+    "source": {
+      "page": "Portal:Current_events",
+      "rev_id": 1353502060,
+      "section_date": "2026-05-09",
+      "section_topic": "Law and crime",
+      "section_anchor": "#Law_and_crime"
+    },
+    "headline": "Brazilian Supreme Federal Court justice Alexandre de Moraes suspends the implementation of a law that could reduce prison sentences for individuals convicted over the 2022\u20132023 coup plot, including fo",
+    "body": "[Arrest of Jair Bolsonaro] Brazilian Supreme Federal Court justice Alexandre de Moraes suspends the implementation of a law that could reduce prison sentences for individuals convicted over the 2022\u20132023 coup plot, including former president Jair Bolsonaro, pending a constitutional review by the full court. (AFP via France 24)",
+    "topic_category": "law_crime",
+    "linked_entities": [
+      {
+        "surface": "Brazil",
+        "wikipedia_title": "Brazil",
+        "wikidata_qid": null,
+        "role": "other",
+        "confidence": 1.0
+      },
+      {
+        "surface": "Supreme Federal Court",
+        "wikipedia_title": "Supreme Federal Court",
+        "wikidata_qid": null,
+        "role": "other",
+        "confidence": 1.0
+      },
+      {
+        "surface": "Alexandre de Moraes",
+        "wikipedia_title": "Alexandre de Moraes",
+        "wikidata_qid": null,
+        "role": "other",
+        "confidence": 1.0
+      },
+      {
+        "surface": "law",
+        "wikipedia_title": "Law of Brazil",
+        "wikidata_qid": null,
+        "role": "other",
+        "confidence": 1.0
+      },
+      {
+        "surface": "2022\u20132023 coup plot",
+        "wikipedia_title": "2022\u20132023 Brazilian coup plot",
+        "wikidata_qid": null,
+        "role": "other",
+        "confidence": 1.0
+      },
+      {
+        "surface": "president",
+        "wikipedia_title": "President of Brazil",
+        "wikidata_qid": null,
+        "role": "other",
+        "confidence": 1.0
+      },
+      {
+        "surface": "Jair Bolsonaro",
+        "wikipedia_title": "Jair Bolsonaro",
+        "wikidata_qid": null,
+        "role": "other",
+        "confidence": 1.0
+      },
+      {
+        "surface": "constitutional",
+        "wikipedia_title": "Constitution of Brazil",
+        "wikidata_qid": null,
+        "role": "other",
+        "confidence": 1.0
+      }
+    ],
+    "sources": [
+      {
+        "url": "https://www.france24.com/en/live-news/20260509-brazil-court-suspends-law-aimed-at-reducing-bolsonaro-sentence",
+        "domain": "france24.com",
+        "ref_name": null,
+        "publisher_qid": null,
+        "retrieved": "2026-05-10T17:14:48.706830Z"
+      }
+    ],
+    "wikidata_proposal": {
+      "primary_item": null,
+      "target_qid": null,
+      "statements": []
+    },
+    "score": null,
+    "score_rationale": null,
+    "score_components": {
+      "heuristic": null,
+      "llm": null,
+      "model": null,
+      "rubric_version": null
+    },
+    "status": "parsed",
+    "write_lane": "review",
+    "review": {
+      "operator": null,
+      "decision_at": null,
+      "notes": null
+    },
+    "publish": {
+      "attempts": 0,
+      "last_error": null,
+      "wikidata_revisions": []
+    },
+    "timestamps": {
+      "ingested_at": "2026-05-10T17:14:48.706830Z",
+      "parsed_at": "2026-05-10T17:14:48.706830Z",
+      "scored_at": null,
+      "published_at": null
+    }
+  },
+  {
+    "schema_version": "1.0",
+    "event_id": "ce_2026-05-09_law-crime_02",
+    "source": {
+      "page": "Portal:Current_events",
+      "rev_id": 1353502060,
+      "section_date": "2026-05-09",
+      "section_topic": "Law and crime",
+      "section_anchor": "#Law_and_crime"
+    },
+    "headline": "Bahrain arrests 41 individuals in connection with Iran's Islamic Revolutionary Guard Corps, including Shia clerics",
+    "body": "Bahrain arrests 41 individuals in connection with Iran's Islamic Revolutionary Guard Corps, including Shia clerics. (MENA via The New Arab)",
+    "topic_category": "law_crime",
+    "linked_entities": [
+      {
+        "surface": "Bahrain",
+        "wikipedia_title": "Bahrain",
+        "wikidata_qid": null,
+        "role": "other",
+        "confidence": 1.0
+      },
+      {
+        "surface": "Iran",
+        "wikipedia_title": "Iran",
+        "wikidata_qid": null,
+        "role": "other",
+        "confidence": 1.0
+      },
+      {
+        "surface": "Islamic Revolutionary Guard Corps",
+        "wikipedia_title": "Islamic Revolutionary Guard Corps",
+        "wikidata_qid": null,
+        "role": "other",
+        "confidence": 1.0
+      },
+      {
+        "surface": "Shia",
+        "wikipedia_title": "Shia in Bahrain",
+        "wikidata_qid": null,
+        "role": "other",
+        "confidence": 1.0
+      },
+      {
+        "surface": "clerics",
+        "wikipedia_title": "Shia clergy",
+        "wikidata_qid": null,
+        "role": "other",
+        "confidence": 1.0
+      }
+    ],
+    "sources": [
+      {
+        "url": "https://www.newarab.com/news/bahrain-arrests-dozens-shia-clerics-crackdown-intensifies",
+        "domain": "newarab.com",
+        "ref_name": null,
+        "publisher_qid": null,
+        "retrieved": "2026-05-10T17:14:48.706830Z"
+      }
+    ],
+    "wikidata_proposal": {
+      "primary_item": null,
+      "target_qid": null,
+      "statements": []
+    },
+    "score": null,
+    "score_rationale": null,
+    "score_components": {
+      "heuristic": null,
+      "llm": null,
+      "model": null,
+      "rubric_version": null
+    },
+    "status": "parsed",
+    "write_lane": "review",
+    "review": {
+      "operator": null,
+      "decision_at": null,
+      "notes": null
+    },
+    "publish": {
+      "attempts": 0,
+      "last_error": null,
+      "wikidata_revisions": []
+    },
+    "timestamps": {
+      "ingested_at": "2026-05-10T17:14:48.706830Z",
+      "parsed_at": "2026-05-10T17:14:48.706830Z",
+      "scored_at": null,
+      "published_at": null
+    }
+  },
+  {
+    "schema_version": "1.0",
+    "event_id": "ce_2026-05-09_politics_01",
+    "source": {
+      "page": "Portal:Current_events",
+      "rev_id": 1353502060,
+      "section_date": "2026-05-09",
+      "section_topic": "Politics and elections",
+      "section_anchor": "#Politics_and_elections"
+    },
+    "headline": "P\u00e9ter Magyar of the Tisza Party is sworn in as the prime minister of Hungary, ending the 16-year tenure of Fidesz's Viktor Orb\u00e1n",
+    "body": "[2026 Hungarian parliamentary election > Magyar Government] P\u00e9ter Magyar of the Tisza Party is sworn in as the prime minister of Hungary, ending the 16-year tenure of Fidesz's Viktor Orb\u00e1n. (Reuters)",
+    "topic_category": "politics",
+    "linked_entities": [
+      {
+        "surface": "P\u00e9ter Magyar",
+        "wikipedia_title": "P\u00e9ter Magyar",
+        "wikidata_qid": null,
+        "role": "other",
+        "confidence": 1.0
+      },
+      {
+        "surface": "Tisza Party",
+        "wikipedia_title": "Tisza Party",
+        "wikidata_qid": null,
+        "role": "other",
+        "confidence": 1.0
+      },
+      {
+        "surface": "prime minister",
+        "wikipedia_title": "Prime Minister of Hungary",
+        "wikidata_qid": null,
+        "role": "other",
+        "confidence": 1.0
+      },
+      {
+        "surface": "Hungary",
+        "wikipedia_title": "Hungary",
+        "wikidata_qid": null,
+        "role": "other",
+        "confidence": 1.0
+      },
+      {
+        "surface": "16-year tenure",
+        "wikipedia_title": "Hungary under Viktor Orb\u00e1n",
+        "wikidata_qid": null,
+        "role": "other",
+        "confidence": 1.0
+      },
+      {
+        "surface": "Fidesz",
+        "wikipedia_title": "Fidesz",
+        "wikidata_qid": null,
+        "role": "other",
+        "confidence": 1.0
+      },
+      {
+        "surface": "Viktor Orb\u00e1n",
+        "wikipedia_title": "Viktor Orb\u00e1n",
+        "wikidata_qid": null,
+        "role": "other",
+        "confidence": 1.0
+      }
+    ],
+    "sources": [
+      {
+        "url": "https://www.reuters.com/world/magyar-sworn-hungarys-prime-minister-promises-change-2026-05-09/",
+        "domain": "reuters.com",
+        "ref_name": null,
+        "publisher_qid": null,
+        "retrieved": "2026-05-10T17:14:48.706830Z"
+      }
+    ],
+    "wikidata_proposal": {
+      "primary_item": null,
+      "target_qid": null,
+      "statements": []
+    },
+    "score": null,
+    "score_rationale": null,
+    "score_components": {
+      "heuristic": null,
+      "llm": null,
+      "model": null,
+      "rubric_version": null
+    },
+    "status": "parsed",
+    "write_lane": "review",
+    "review": {
+      "operator": null,
+      "decision_at": null,
+      "notes": null
+    },
+    "publish": {
+      "attempts": 0,
+      "last_error": null,
+      "wikidata_revisions": []
+    },
+    "timestamps": {
+      "ingested_at": "2026-05-10T17:14:48.706830Z",
+      "parsed_at": "2026-05-10T17:14:48.706830Z",
+      "scored_at": null,
+      "published_at": null
+    }
+  },
+  {
+    "schema_version": "1.0",
+    "event_id": "ce_2026-05-09_politics_02",
+    "source": {
+      "page": "Portal:Current_events",
+      "rev_id": 1353502060,
+      "section_date": "2026-05-09",
+      "section_topic": "Politics and elections",
+      "section_anchor": "#Politics_and_elections"
+    },
+    "headline": "The National Assembly of Hungary reconvenes for the first time since the election as elected members are sworn in",
+    "body": "[2026 Hungarian parliamentary election] The National Assembly of Hungary reconvenes for the first time since the election as elected members are sworn in. \u00c1gnes Forsthoffer is elected as speaker. (Budapest Business Journal)",
+    "topic_category": "politics",
+    "linked_entities": [
+      {
+        "surface": "National Assembly",
+        "wikipedia_title": "National Assembly (Hungary)",
+        "wikidata_qid": null,
+        "role": "other",
+        "confidence": 1.0
+      },
+      {
+        "surface": "members",
+        "wikipedia_title": "List of members of the National Assembly of Hungary (2026\u20132030)",
+        "wikidata_qid": null,
+        "role": "other",
+        "confidence": 1.0
+      },
+      {
+        "surface": "\u00c1gnes Forsthoffer",
+        "wikipedia_title": "\u00c1gnes Forsthoffer",
+        "wikidata_qid": null,
+        "role": "other",
+        "confidence": 1.0
+      },
+      {
+        "surface": "speaker",
+        "wikipedia_title": "List of speakers of the National Assembly (Hungary)",
+        "wikidata_qid": null,
+        "role": "other",
+        "confidence": 1.0
+      }
+    ],
+    "sources": [
+      {
+        "url": "https://bbj.hu/politics/domestic/parliament/agnes-forsthoffer-elected-speaker-only-2nd-woman-to-hold-role/",
+        "domain": "bbj.hu",
+        "ref_name": null,
+        "publisher_qid": null,
+        "retrieved": "2026-05-10T17:14:48.706830Z"
+      }
+    ],
+    "wikidata_proposal": {
+      "primary_item": null,
+      "target_qid": null,
+      "statements": []
+    },
+    "score": null,
+    "score_rationale": null,
+    "score_components": {
+      "heuristic": null,
+      "llm": null,
+      "model": null,
+      "rubric_version": null
+    },
+    "status": "parsed",
+    "write_lane": "review",
+    "review": {
+      "operator": null,
+      "decision_at": null,
+      "notes": null
+    },
+    "publish": {
+      "attempts": 0,
+      "last_error": null,
+      "wikidata_revisions": []
+    },
+    "timestamps": {
+      "ingested_at": "2026-05-10T17:14:48.706830Z",
+      "parsed_at": "2026-05-10T17:14:48.706830Z",
+      "scored_at": null,
+      "published_at": null
+    }
+  },
+  {
+    "schema_version": "1.0",
+    "event_id": "ce_2026-05-09_politics_03",
+    "source": {
+      "page": "Portal:Current_events",
+      "rev_id": 1353502060,
+      "section_date": "2026-05-09",
+      "section_topic": "Politics and elections",
+      "section_anchor": "#Politics_and_elections"
+    },
+    "headline": "Farrer MP David Farley becomes the first One Nation candidate elected to the Australian House of Representatives",
+    "body": "[2026 Farrer by-election] Farrer MP David Farley becomes the first One Nation candidate elected to the Australian House of Representatives. (ABC News Australia)",
+    "topic_category": "politics",
+    "linked_entities": [
+      {
+        "surface": "Farrer",
+        "wikipedia_title": "Division of Farrer",
+        "wikidata_qid": null,
+        "role": "other",
+        "confidence": 1.0
+      },
+      {
+        "surface": "MP",
+        "wikipedia_title": "Member of parliament",
+        "wikidata_qid": null,
+        "role": "other",
+        "confidence": 1.0
+      },
+      {
+        "surface": "David Farley",
+        "wikipedia_title": "David Farley (politician)",
+        "wikidata_qid": null,
+        "role": "other",
+        "confidence": 1.0
+      },
+      {
+        "surface": "One Nation",
+        "wikipedia_title": "One Nation",
+        "wikidata_qid": null,
+        "role": "other",
+        "confidence": 1.0
+      },
+      {
+        "surface": "Australian House of Representatives",
+        "wikipedia_title": "Australian House of Representatives",
+        "wikidata_qid": null,
+        "role": "other",
+        "confidence": 1.0
+      }
+    ],
+    "sources": [
+      {
+        "url": "https://www.abc.net.au/news/2026-05-09/farrer-sat-night-results/106656856",
+        "domain": "abc.net.au",
+        "ref_name": null,
+        "publisher_qid": null,
+        "retrieved": "2026-05-10T17:14:48.706830Z"
+      }
+    ],
+    "wikidata_proposal": {
+      "primary_item": null,
+      "target_qid": null,
+      "statements": []
+    },
+    "score": null,
+    "score_rationale": null,
+    "score_components": {
+      "heuristic": null,
+      "llm": null,
+      "model": null,
+      "rubric_version": null
+    },
+    "status": "parsed",
+    "write_lane": "review",
+    "review": {
+      "operator": null,
+      "decision_at": null,
+      "notes": null
+    },
+    "publish": {
+      "attempts": 0,
+      "last_error": null,
+      "wikidata_revisions": []
+    },
+    "timestamps": {
+      "ingested_at": "2026-05-10T17:14:48.706830Z",
+      "parsed_at": "2026-05-10T17:14:48.706830Z",
+      "scored_at": null,
+      "published_at": null
+    }
+  }
+]
