@@ -4,3 +4,9 @@
 2026-05-10 16:38:02,351  INFO     pipeline.worker  connecting to Realtime stream (since=2026-05-10T20:22:23.936000Z)…
 2026-05-10 16:38:02,672  INFO     pipeline.worker  event for 2026-05-10 (page='Portal:Current events/2026 May 10')
 2026-05-10 16:38:03,003  INFO     pipeline.worker    scraped 8 events for 2026-05-10 (0 new)
+2026-05-10 16:44:59,702  INFO     pipeline.worker  event for 2023-04-18 (page='Portal:Current events/2023 April 18')
+2026-05-10 16:45:01,204  INFO     pipeline.worker    scraped 16 events for 2023-04-18 (16 new)
+2026-05-10 16:45:06,198  WARNING  pipeline.discord  discord notify rejected 429: {"message": "You are being rate limited.", "retry_after": 0.3, "global": false}
+2026-05-10 16:45:07,082  WARNING  pipeline.discord  discord notify rejected 429: {"message": "You are being rate limited.", "retry_after": 0.3, "global": false}
+2026-05-10 16:45:07,936  WARNING  pipeline.discord  discord notify rejected 429: {"message": "You are being rate limited.", "retry_after": 0.372, "global": false}
+2026-05-10 16:45:08,830  WARNING  pipeline.discord  discord notify rejected 429: {"message": "You are being rate limited.", "retry_after": 0.477, "global": false}
