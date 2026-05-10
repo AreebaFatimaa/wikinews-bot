@@ -1,0 +1,25 @@
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+.env
+.env.*
+!.env.example
+*.sqlite3
+*.db
+.pytest_cache/
+.ruff_cache/
+.mypy_cache/
+dist/
+build/
+*.egg-info/
+.DS_Store
+.vscode/
+.idea/
+
+# Local secret stores — never commit
+secrets/
+*.user-config.py
+user-password.py
+.credentials/
+out/
